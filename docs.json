@@ -7,9 +7,6 @@
     "light": "#737373",
     "dark": "#171717"
   },
-  "appearance": {
-    "strict": true
-  },
   "background": {
     "color": {
       "light": "#FBF7F3"
@@ -17,9 +14,29 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Guides",
+        "language": "en",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": ["introduction", "quickstart", "development"]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "de",
         "groups": [
           {
             "group": "Getting Started",
@@ -38,7 +55,6 @@
           }
         ]
       }
-     
     ],
     "global": {
       "anchors": [
